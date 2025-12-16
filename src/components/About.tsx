@@ -1,10 +1,10 @@
 import { User, Shield, Clock, MapPin, Key, Code, Bug, Server } from "lucide-react";
 
 const profileData = [
-  { icon: User, label: "Name", value: 'Alex "Cipher" Rodriguez' },
+  { icon: User, label: "Name", value: 'Bikash Sarkar' },
   { icon: Shield, label: "Specialization", value: "Offensive Security" },
-  { icon: Clock, label: "Experience", value: "8+ Years" },
-  { icon: MapPin, label: "Location", value: "Cyberspace" },
+  { icon: Clock, label: "Experience", value: "4+ Years" },
+  { icon: MapPin, label: "Location", value: "Barasat,Kolkata" },
   { icon: Key, label: "Clearance", value: "Top Secret" },
 ];
 
@@ -37,12 +37,12 @@ const About = () => {
           <div className="relative group order-2 lg:order-1">
             <div className="absolute inset-0 bg-primary/20 transform rotate-3 group-hover:rotate-6 transition-transform rounded-sm" />
             <img
-              src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=500&fit=crop"
+              src="/hacker-dark.jpg"
               alt="Cybersecurity Expert"
               className="relative w-full h-[250px] sm:h-[350px] lg:h-[400px] object-cover cyber-border"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
-            
+
             {/* Tools overlay */}
             <div className="absolute bottom-4 left-4 right-4 flex flex-wrap gap-2">
               {tools.map((tool, i) => (

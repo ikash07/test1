@@ -3,9 +3,9 @@ import { Mail, Phone, MapPin, Key, Clock, Send, CheckCircle, Loader2 } from "luc
 import { toast } from "@/hooks/use-toast";
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "cipher@cyberspace.sec" },
-  { icon: Phone, label: "Secure Line", value: "+1 (555) HACK-SEC" },
-  { icon: MapPin, label: "Location", value: "Distributed Network" },
+  { icon: Mail, label: "Email", value: "ashimsarkar171@gmail.com" },
+  { icon: Phone, label: "Secure Line", value: "+91 8370911090" },
+  { icon: MapPin, label: "Location", value: "Barasat,Kolkata" },
   { icon: Key, label: "PGP Key", value: "4A8B 9C2D 1E5F" },
 ];
 

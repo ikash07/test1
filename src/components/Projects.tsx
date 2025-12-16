@@ -8,7 +8,7 @@ const projects = [
     bgStatus: "bg-red-400/10",
     description: "Simulated APT attack on enterprise infrastructure",
     techStack: ["Metasploit", "Nmap", "Wireshark"],
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=250&fit=crop",
+    image: "/data.jpg",
     icon: Lock,
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     bgStatus: "bg-yellow-400/10",
     description: "Critical vulnerability in popular web framework",
     techStack: ["Python", "Fuzzing", "Reverse Eng"],
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=250&fit=crop",
+    image: "/hacker.jpg",
     icon: Eye,
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     bgStatus: "bg-primary/10",
     description: "Security flaws in smart home ecosystem",
     techStack: ["Hardware", "Firmware", "RF"],
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop",
+    image: "iot.jpg",
     icon: Cpu,
   },
 ];
