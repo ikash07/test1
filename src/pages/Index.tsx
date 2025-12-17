@@ -47,7 +47,6 @@ const Index = () => {
                 {/* X (Twitter) */}
                 <a
                   href="#"
-                  target="_blank"
                   className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border"
                 >
                   <FontAwesomeIcon icon={faXTwitter} className="w-4 h-4" />
