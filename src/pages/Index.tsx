@@ -1,4 +1,6 @@
-import { Github, Twitter, Linkedin, Shield } from "lucide-react";
+import { Github, Linkedin, Shield } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -34,16 +36,32 @@ const Index = () => {
 
               {/* Social links */}
               <div className="flex items-center gap-4">
-                {[Github, Twitter, Linkedin].map((Icon, i) => (
-                  <a
-                    key={i}
-                    href="#"
-                    className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border border-border hover:border-primary hover:text-primary transition-colors text-muted-foreground"
-                  >
-                    <Icon className="w-4 h-4" />
-                  </a>
-                ))}
+                {/* GitHub */}
+                <a
+                  href="#"
+                  className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border"
+                >
+                  <Github className="w-4 h-4" />
+                </a>
+
+                {/* X (Twitter) */}
+                <a
+                  href="#"
+                  target="_blank"
+                  className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border"
+                >
+                  <FontAwesomeIcon icon={faXTwitter} className="w-4 h-4" />
+                </a>
+
+                {/* LinkedIn */}
+                <a
+                  href="#"
+                  className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border"
+                >
+                  <Linkedin className="w-4 h-4" />
+                </a>
               </div>
+
 
               {/* Copyright */}
               <p className="text-muted-foreground text-xs sm:text-sm text-center sm:text-right">
@@ -54,8 +72,8 @@ const Index = () => {
             {/* Status bar */}
             <div className="mt-6 pt-4 border-t border-border">
               <p className="text-[10px] sm:text-xs text-muted-foreground/50 text-center font-mono">
-                CONNECTION: <span className="text-primary">ENCRYPTED</span> | 
-                PROTOCOL: <span className="text-primary">TLS 1.3</span> | 
+                CONNECTION: <span className="text-primary">ENCRYPTED</span> |
+                PROTOCOL: <span className="text-primary">TLS 1.3</span> |
                 STATUS: <span className="text-green-400">OPERATIONAL</span>
               </p>
             </div>
