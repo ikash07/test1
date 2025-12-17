@@ -92,7 +92,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-muted-foreground text-sm sm:text-lg md:text-xl max-w-lg mx-auto lg:mx-0">
-              Penetration Tester | Security Researcher | Digital Forensics Expert
+              Penetration Tester | Security Researcher | Bug Hanter
             </p>
 
             <div className="space-y-2 inline-block">
