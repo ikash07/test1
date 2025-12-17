@@ -48,6 +48,7 @@ const Index = () => {
                 {/* X (Twitter) */}
                 <a
                   href="https://www.x.com/"
+                  target="_blank"
                   className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border"
                 >
                   <FontAwesomeIcon icon={faXTwitter} className="w-4 h-4" />
@@ -56,6 +57,7 @@ const Index = () => {
                 {/* LinkedIn */}
                 <a
                   href="https://www.linkedin.com"
+                  target="_blank"
                   className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border"
                 >
                   <Linkedin className="w-4 h-4" />
