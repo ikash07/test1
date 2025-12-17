@@ -38,7 +38,7 @@ const Index = () => {
               <div className="flex items-center gap-4">
                 {/* GitHub */}
                 <a
-                  href="https://github.com/ikash07"
+                  href="https://www.github.com/ikash07"
                   className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border"
                 >
                   <Github className="w-4 h-4" />
@@ -46,7 +46,7 @@ const Index = () => {
 
                 {/* X (Twitter) */}
                 <a
-                  href="https://x.com/"
+                  href="https://www.x.com/"
                   className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border"
                 >
                   <FontAwesomeIcon icon={faXTwitter} className="w-4 h-4" />
@@ -54,7 +54,7 @@ const Index = () => {
 
                 {/* LinkedIn */}
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com"
                   className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border"
                 >
                   <Linkedin className="w-4 h-4" />
