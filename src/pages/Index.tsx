@@ -39,6 +39,7 @@ const Index = () => {
                 {/* GitHub */}
                 <a
                   href="https://www.github.com/ikash07"
+                  target="_blank"
                   className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border"
                 >
                   <Github className="w-4 h-4" />
